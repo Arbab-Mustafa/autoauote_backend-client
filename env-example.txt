@@ -1,0 +1,27 @@
+# Backend Environment Configuration
+# Copy this file to .env and update the values
+
+# Server Configuration
+PORT=3000
+NODE_ENV=development
+
+# CORS Configuration
+ALLOWED_ORIGIN=http://localhost:3001
+
+# Redis Configuration
+REDIS_HOST=localhost
+REDIS_PORT=6379
+REDIS_PASSWORD=
+
+# JWT Configuration
+JWT_SECRET=your-super-secret-key-change-in-production
+
+# Provider API Keys (for production)
+PROVIDER_A_URL=https://api.provider-a.example.com
+PROVIDER_A_KEY=demo_key
+PROVIDER_B_URL=https://api.provider-b.example.com
+PROVIDER_B_KEY=demo_key
+PROVIDER_C_URL=https://api.provider-c.example.com
+PROVIDER_C_KEY=demo_key
+PROVIDER_D_URL=https://api.provider-d.example.com
+PROVIDER_D_KEY=demo_key 
